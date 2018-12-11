@@ -1,0 +1,82 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ClickClack Android Draft v1">
+
+    <listeners>
+
+        <listener class-name="com.clickclack.android.autotests.listeners.ExtentListener"/>
+        <listener class-name="com.clickclack.android.autotests.listeners.SlackNotifier"/>
+
+    </listeners>
+
+    <!--<test name="HomeActivity">
+
+        <classes>
+
+            <class name="com.clickclack.android.autotests.draft.v1.activities.home.HomeActivityUnitTestSet" />
+            <class name="com.clickclack.android.autotests.draft.v1.activities.home.HomeActivityIntegrationTestSet" />
+            <class name="com.clickclack.android.autotests.draft.v1.activities.home.HomeActivityFunctionalTestSet" />
+
+        </classes>
+
+    </test>
+
+    <test name="ClacksListActivity">
+
+        <classes>
+
+            <class name="com.clickclack.android.autotests.draft.v1.activities.clacks.list.ClacksListActivityUnitTestSet" />
+            <class name="com.clickclack.android.autotests.draft.v1.activities.clacks.list.ClacksListActivityIntegrationTestSet" />
+            <class name="com.clickclack.android.autotests.draft.v1.activities.clacks.list.ClacksListActivityFunctionalTestSet" />
+
+        </classes>
+
+    </test>-->
+
+    <test name="ClacksCreateActivity">
+
+        <classes>
+
+            <class name="com.clickclack.android.autotests.draft.v1.activities.clacks.create.ClacksCreateActivityUnitTestSet" />
+            <class name="com.clickclack.android.autotests.draft.v1.activities.clacks.create.ClacksCreateActivityIntegrationTestSet" />
+            <class name="com.clickclack.android.autotests.draft.v1.activities.clacks.create.ClacksCreateActivityFunctionalTestSet" />
+
+        </classes>
+
+    </test>
+
+ <!--   <test name="ClacksDetailsActivity">
+
+        <classes>
+
+            <class name="com.clickclack.android.autotests.draft.v1.activities.clacks.details.ClacksDetailsActivityUnitTestSet" />
+            <class name="com.clickclack.android.autotests.draft.v1.activities.clacks.details.ClacksDetailsActivityIntegrationTestSet" />
+            <class name="com.clickclack.android.autotests.draft.v1.activities.clacks.details.ClacksDetailsActivityFunctionalTestSet" />
+
+        </classes>
+
+    </test>-->
+
+    <!--<test name="ClacksUpdateActivity">
+
+        <classes>
+
+            <class name="com.clickclack.android.autotests.draft.v1.activities.clacks.update.ClacksUpdateActivityUnitTestSet" />
+            <class name="com.clickclack.android.autotests.draft.v1.activities.clacks.details.ClacksDetailsActivityIntegrationTestSet" />
+            <class name="com.clickclack.android.autotests.draft.v1.activities.clacks.details.ClacksDetailsActivityFunctionalTestSet" />
+
+        </classes>
+
+    </test>
+
+    <test name="end to end">
+
+        <classes>
+
+            <class name="com.clickclack.android.autotests.draft.v1.EndToEndTestSet" />
+
+        </classes>
+
+    </test>-->
+
+</suite>

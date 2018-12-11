@@ -1,0 +1,107 @@
+package com.clickclack.android.autotests.draft.v1.activities.clacks.list;
+
+import com.clickclack.android.autotests.pages.ClacksListPage;
+import com.clickclack.android.autotests.pages.HomePage;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.remote.MobileCapabilityType;
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.concurrent.TimeUnit;
+
+public class ClacksListActivityUnitTestSet {
+
+    private AndroidDriver mobileDriver;
+
+    @BeforeClass
+    public void prepareTests() throws MalformedURLException {
+        DesiredCapabilities capabilities = DesiredCapabilities.android();
+        capabilities.setCapability(MobileCapabilityType.APPIUM_VERSION, "1.9.1");
+        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "7.0");
+        capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, Platform.ANDROID);
+        capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"Appium");
+        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel_API_24");
+        capabilities.setCapability(MobileCapabilityType.APP, "/Users/adrian/GitHub/clickclack-android/app/build/outputs/apk/debug/app-debug.apk");
+        mobileDriver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+        mobileDriver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+
+        new HomePage(mobileDriver)
+                .gotoClacks();
+    }
+
+    @Test(
+            groups = {"unit"},
+            description = "Clack List Page have Add button"
+    )
+    public void testListPageHasCreateButton() {
+        new ClacksListPage(mobileDriver)
+                .verifyCreateButtonIsPresent();
+    }
+
+    @Test(
+            groups = {"unit"},
+            description = "Clack List Page have ID label"
+    )
+    public void testListPageHasClackIdLabel() {
+        new ClacksListPage(mobileDriver)
+                .verifyClackIdLabelIsPresent();
+    }
+
+    @Test(
+            groups = {"unit"},
+            description = "Clack List Page have ID value"
+    )
+    public void testListPageHasClackIdValue() {
+        new ClacksListPage(mobileDriver)
+                .verifyClackIdValueIsPresent();
+    }
+
+    @Test(
+            groups = {"unit"},
+            description = "Clack List Page have Attributes label"
+    )
+    public void testListPageHasClackAttrsLabel() {
+        new ClacksListPage(mobileDriver)
+                .verifyClackAttrsLabelIsPresent();
+    }
+
+    @Test(
+            groups = {"unit"},
+            description = "Clack List Page have Attributes value"
+    )
+    public void testListPageHasClackAttrsValue() {
+        new ClacksListPage(mobileDriver)
+                .verifyClackAttrsValueIsPresent();
+    }
+
+    @Test(
+            groups = {"unit"},
+            description = "Clack List Page have Details button"
+    )
+    public void testListPageHasDetailsButton() {
+        new ClacksListPage(mobileDriver)
+                .verifyDetailsButtonIsPresent();
+    }
+
+    @Test(
+            groups = {"unit"},
+            description = "Clack List Page have Update button"
+    )
+    public void testListPageHasUpdateButton() {
+        new ClacksListPage(mobileDriver)
+                .verifyUpdateButtonIsPresent();
+    }
+
+    @Test(
+            groups = {"unit"},
+            description = "Clack List Page have Delete button"
+    )
+    public void testListPageHasDeleteButton() {
+        new ClacksListPage(mobileDriver)
+                .verifyDeleteButtonIsPresent();
+    }
+}
