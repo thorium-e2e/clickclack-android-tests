@@ -21,6 +21,8 @@ public class AppiumAndroidTestSet {
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"Appium");
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel_API_24");
         capabilities.setCapability(MobileCapabilityType.APP, "/Users/adrian/GitHub/clickclack-android/app/build/outputs/apk/debug/app-debug.apk");
+        capabilities.setCapability(MobileCapabilityType.TAKES_SCREENSHOT, "true");
+
         try {
             mobileDriver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
             mobileDriver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
