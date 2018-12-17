@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aff75189-c0e0-4e8c-a5ea-3bae1b6ee64f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/clickclack/android/autotests/AppiumAndroidTestSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/clickclack/android/autotests/AppiumAndroidTestSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,12 +21,12 @@
     <periodicRefresh>false</periodicRefresh>
     <languageLevel>1.8 - lambda functions, virtual extension methods.</languageLevel>
     <instrumentLambda class="com.atlassian.clover.cfg.instr.java.LambdaInstrumentation">NONE</instrumentLambda>
-    <autoScrollFromSource>false</autoScrollFromSource>
     <testCaseLayout class="com.atlassian.clover.idea.config.TestCaseLayout">TEST_CASES</testCaseLayout>
+    <autoScrollFromSource>false</autoScrollFromSource>
     <coveredHighlight>-3605816</coveredHighlight>
     <outOfDateStripe>-256</outOfDateStripe>
-    <includes null="true" />
     <excludes null="true" />
+    <includes null="true" />
     <alwaysExpandTestClasses>false</alwaysExpandTestClasses>
     <autoViewInCloudReport>true</autoViewInCloudReport>
     <flushPolicy>0</flushPolicy>
@@ -54,8 +53,8 @@
     <generatedInitString>$PROJECT_DIR$/.clover/coverage.db</generatedInitString>
     <regexpContexts class="java.util.ArrayList" />
     <flushInterval>5000</flushInterval>
-    <flattenPackages>false</flattenPackages>
     <viewIncludeAnnotation>true</viewIncludeAnnotation>
+    <flattenPackages>false</flattenPackages>
     <loadPerTestData>true</loadPerTestData>
     <showErrorMarks>true</showErrorMarks>
     <buildWithClover>true</buildWithClover>
@@ -110,8 +109,10 @@
     <session id="484986001">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -143,7 +144,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/clickclack/android/autotests/pages/ClackDetailsPage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="511">
+                <state relative-caret-position="525">
                   <caret line="45" column="42" selection-start-line="45" selection-end-line="46" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -239,11 +240,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="58" />
     <option name="y" value="23" />
-    <option name="width" value="1862" />
-    <option name="height" value="1057" />
+    <option name="width" value="1382" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -251,8 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,6 +289,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -370,9 +371,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="23" width="1862" height="1057" extended-state="0" />
+    <frame x="58" y="23" width="1382" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19395605" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20895523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -484,13 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,10 +496,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/clickclack/android/autotests/common/AndroidDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/clickclack/android/autotests/AppiumAndroidTestSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/clickclack/android/autotests/pages/ClackDetailsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
+        <state relative-caret-position="525">
           <caret line="45" column="42" selection-start-line="45" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/clickclack/android/autotests/pages/ClacksCreatePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -532,33 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/clickclack/android/autotests/common/AndroidDriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/clickclack/android/autotests/AppiumAndroidTestSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/clickclack/android/autotests/pages/ClacksCreatePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
